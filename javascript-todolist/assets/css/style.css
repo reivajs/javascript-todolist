@@ -1,0 +1,47 @@
+.container{
+    background-color: rgb(161, 66, 66);
+    min-height: 500px;
+    width: 40%;
+    padding: 10px;
+
+}
+
+#btnAgregar{
+    background-color: rgb(170, 7, 7);
+    color: white;
+}
+
+span{
+    color:rgb(211, 30, 30);
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    word-spacing: 8px;
+
+}
+.parrafos{
+    gap: 10px;
+    max-height: 20px;
+}
+
+#listaDeTareas{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 10px;
+    padding: 5px;
+    list-style: none;
+}
+
+#listaDeTareas li {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+button{
+    max-width: 120px;
+}
